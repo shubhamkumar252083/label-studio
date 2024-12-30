@@ -1,0 +1,18 @@
+pip install label-studio
+env var ==> DATA_UPLOAD_MAX_NUMBER_FILES=10000  # or another higher value
+
+label-studio start --debug
+label-studio --port 9090
+
+=======================
+=> Database and media directory: /home/epsumlabs/.local/share/label-studio
+=> Static URL is set to: /static/
+=> Database and media directory: /home/epsumlabs/.local/share/label-studio
+=> Static URL is set to: /static/
+Read environment variables from: /home/epsumlabs/.local/share/label-studio/.env
+=======================
+env var ==> BASE_DATA_DIR
+to change the path..
+================
+s@g.com
+Skmd@9055
